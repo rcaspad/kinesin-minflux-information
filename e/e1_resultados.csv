@@ -1,0 +1,4 @@
+dol,cond,comparable,n_trazas,n_pares,im_orden,p_orden,im_paridad,p_paridad,rev_n_same,rev_T,rev_p,rev_veredicto,e1c_D,e1c_p
+DOL1,10uM,True,142,1166,0.00308,0.5514,0.00308,0.5714,51,-0.2233,0.3037,nulo,-0.0069,0.9451
+DOL1,1mM,True,132,1427,0.00564,0.4585,0.00564,0.3287,112,-0.2565,0.5355,nulo,-0.0627,0.4815
+DOL2,1mM,True,130,1819,0.00327,0.3736,0.00327,0.3017,205,0.2007,1.0,nulo,-0.0042,0.96

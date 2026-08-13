@@ -1,0 +1,24 @@
+[A2'] 54 celdas x 11 condiciones = 594 tareas; 8 procesos
+[A2'] 50/594  22.1 min  (ETA 240.3 min)
+[A2'] 100/594  34.8 min  (ETA 171.9 min)
+[A2'] 150/594  47.3 min  (ETA 140.0 min)
+[A2'] 200/594  61.0 min  (ETA 120.2 min)
+[A2'] 250/594  78.2 min  (ETA 107.6 min)
+[A2'] 300/594  90.7 min  (ETA 88.9 min)
+[A2'] 350/594  104.0 min  (ETA 72.5 min)
+[A2'] 400/594  120.5 min  (ETA 58.4 min)
+[A2'] 450/594  149.6 min  (ETA 47.9 min)
+[A2'] 500/594  165.6 min  (ETA 31.1 min)
+[A2'] 550/594  186.2 min  (ETA 14.9 min)
+[A2'] 594/594  209.3 min  (ETA 0.0 min)
+
+=== A2' criterio (i): FPR bajo H0, canal evento, PT ===
+  k=4: 54 celdas, FPR media 0.0508, max 0.0760, literal>0.05: 27, significativas BH: 0
+  k=8: 54 celdas, FPR media 0.0519, max 0.0780, literal>0.05: 29, significativas BH: 0
+
+=== A2' criterio (ii): potencia PT k=4 en magnitudes plausibles ===
+  E215C: ALCANZA potencia 0.80 en magnitud plausible; detalle {('10uM', 'limping'): 0.35}
+  K28C: ALCANZA potencia 0.80 en magnitud plausible; detalle {('10uM', 'limping'): 0.35}
+  T324C: ALCANZA potencia 0.80 en magnitud plausible; detalle {('10uM', 'ar1'): 0.2, ('10uM', 'limping'): 0.35, ('1mM', 'ar1'): 0.2, ('1mM', 'limping'): 0.35}
+
+VEREDICTO A2': PASA — calibración limpia y potencia alcanzable en magnitudes plausibles en los 3 constructos. B1v2 queda habilitada A FALTA DE LA FIRMA de Raúl (prereg v2 §5).

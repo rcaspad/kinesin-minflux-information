@@ -1,0 +1,38 @@
+[D] E215C 10uM *FOCO*
+    D-1 revisitas: {'n_same': 1252, 'n_estratos': 1240, 'T': -0.4959, 'p': np.float64(0.001), 'veredicto': 'RAIL (sitio con identidad)'}
+    D-2 decaimiento: {'n_pares': 2556, 'n_cerca': 1709, 'D': -0.5784, 'p': np.float64(1.0), 'veredicto': 'sin decaimiento espacial detectable'}
+    D-3 rachas: {'n_rachas': 828, 'L_ev_media': 1.598, 'L_ev_nulo': 1.693, 'L_nm_mediana': 13.4, 'p': np.float64(1.0), 'veredicto': 'sin exceso'}
+[D] E215C 100uM
+    D-1 revisitas: {'n_same': 88, 'n_estratos': 88, 'T': -0.5127, 'p': np.float64(0.0519), 'veredicto': 'sin identidad de sitio detectable'}
+    D-2 decaimiento: {'n_pares': 818, 'n_cerca': 532, 'D': -0.5722, 'p': np.float64(1.0), 'veredicto': 'sin decaimiento espacial detectable'}
+    D-3 rachas: {'n_rachas': 226, 'L_ev_media': 1.845, 'L_ev_nulo': 1.681, 'L_nm_mediana': 16.8, 'p': np.float64(0.002), 'veredicto': 'rachas en EXCESO'}
+[D] E215C 1mM
+    D-1 revisitas: {'n_same': 228, 'n_estratos': 228, 'T': -0.4323, 'p': np.float64(0.023), 'veredicto': 'RAIL (sitio con identidad)'}
+    D-2 decaimiento: {'n_pares': 1212, 'n_cerca': 831, 'D': -0.612, 'p': np.float64(1.0), 'veredicto': 'sin decaimiento espacial detectable'}
+    D-3 rachas: {'n_rachas': 382, 'L_ev_media': 1.636, 'L_ev_nulo': 1.685, 'L_nm_mediana': 14.1, 'p': np.float64(0.9021), 'veredicto': 'sin exceso'}
+[D] K28C 10uM *FOCO*
+    D-1 revisitas: {'n_same': 926, 'n_estratos': 926, 'T': -0.2535, 'p': np.float64(0.0509), 'veredicto': 'sin identidad de sitio detectable'}
+    D-2 decaimiento: {'n_pares': 2035, 'n_cerca': 1720, 'D': -0.03, 'p': np.float64(0.6903), 'veredicto': 'sin decaimiento espacial detectable'}
+    D-3 rachas: {'n_rachas': 587, 'L_ev_media': 1.761, 'L_ev_nulo': 1.759, 'L_nm_mediana': 11.5, 'p': np.float64(0.4855), 'veredicto': 'sin exceso'}
+[D] K28C 100uM
+    D-1 revisitas: {'n_same': 32, 'n_estratos': 32, 'T': -0.4737, 'p': np.float64(0.1349), 'veredicto': 'sin identidad de sitio detectable'}
+    D-2 decaimiento: {'n_pares': 673, 'n_cerca': 477, 'D': -0.6152, 'p': np.float64(1.0), 'veredicto': 'sin decaimiento espacial detectable'}
+    D-3 rachas: {'n_rachas': 211, 'L_ev_media': 1.649, 'L_ev_nulo': 1.679, 'L_nm_mediana': 15.0, 'p': np.float64(0.7263), 'veredicto': 'sin exceso'}
+[D] K28C 1mM
+    D-1 revisitas: {'n_same': 180, 'n_estratos': 180, 'T': -0.2367, 'p': np.float64(0.2857), 'veredicto': 'sin identidad de sitio detectable'}
+    D-2 decaimiento: {'n_pares': 1374, 'n_cerca': 952, 'D': -0.609, 'p': np.float64(1.0), 'veredicto': 'sin decaimiento espacial detectable'}
+    D-3 rachas: {'n_rachas': 403, 'L_ev_media': 1.732, 'L_ev_nulo': 1.77, 'L_nm_mediana': 13.3, 'p': np.float64(0.8282), 'veredicto': 'sin exceso'}
+[D] T324C 10uM
+    D-1 revisitas: {'n_same': 2991, 'n_estratos': 2990, 'T': -0.2315, 'p': np.float64(0.007), 'veredicto': 'RAIL (sitio con identidad)'}
+    D-2 decaimiento: {'n_pares': 5264, 'n_cerca': 4201, 'D': -0.236, 'p': np.float64(1.0), 'veredicto': 'sin decaimiento espacial detectable'}
+    D-3 rachas: {'n_rachas': 1589, 'L_ev_media': 1.694, 'L_ev_nulo': 1.746, 'L_nm_mediana': 12.4, 'p': np.float64(0.996), 'veredicto': 'sin exceso'}
+[D] T324C 1mM *FOCO*
+    D-1 revisitas: {'n_same': 1376, 'n_estratos': 1376, 'T': -0.3567, 'p': np.float64(0.001), 'veredicto': 'RAIL (sitio con identidad)'}
+    D-2 decaimiento: {'n_pares': 4658, 'n_cerca': 3377, 'D': -0.5113, 'p': np.float64(1.0), 'veredicto': 'sin decaimiento espacial detectable'}
+    D-3 rachas: {'n_rachas': 1492, 'L_ev_media': 1.596, 'L_ev_nulo': 1.732, 'L_nm_mediana': 12.4, 'p': np.float64(1.0), 'veredicto': 'sin exceso'}
+
+[D-4] Control estacionario N356C (eventos = fabricación del instrumento):
+    DOL1: 0 trazas, 0 eventos totales, 0 eventos/traza
+    DOL2: 0 trazas, 0 eventos totales, 0 eventos/traza
+
+[D-4 corregido] stationary_N356: 209 trazas, 75 eventos fabricados por la cadena, 0.36 eventos/traza

@@ -1,0 +1,12 @@
+== E-1: N356C (COM, tallo) ==
+[E-1] N356C DOL1 10uM: 153 trazas, 1309 eventos KV vs 1674 autores (ratio 0.78) → COMPARABLE
+      E-1a IM dwell→dwell: 0.00308 (p_orden 0.5514, p_paridad 0.5714); E-1b revisitas: {'n_same': 51, 'T': -0.2233, 'p': 0.3037, 'veredicto': 'nulo'}
+[E-1] N356C DOL1 1mM: 137 trazas, 1559 eventos KV vs 1696 autores (ratio 0.92) → COMPARABLE
+      E-1a IM dwell→dwell: 0.00564 (p_orden 0.4585, p_paridad 0.3287); E-1b revisitas: {'n_same': 112, 'T': -0.2565, 'p': 0.5355, 'veredicto': 'nulo'}
+[E-1] N356C DOL2 1mM: 130 trazas, 1949 eventos KV vs 1923 autores (ratio 1.01) → COMPARABLE
+      E-1a IM dwell→dwell: 0.00327 (p_orden 0.3736, p_paridad 0.3017); E-1b revisitas: {'n_same': 205, 'T': 0.2007, 'p': 1.0, 'veredicto': 'nulo'}
+
+== E-2: PRUEBA REINA (K28C, mismos microtúbulos) ==
+[E-2] 19 ROIs útiles; eventos/ROI: [84, 220, 120, 244, 76, 441, 130, 72, 118, 77, 106, 99, 204, 115, 127, 218, 81, 108, 182]
+[E-2] pares cruzados mismo-sitio: 2566
+[E-2] rho = -0.0191  p = 0.7652  (estrato mismo-lado n=1813, rho=-0.039728065758018134)

@@ -1,0 +1,9 @@
+constructo,cond,foco,d1_n_same,d1_n_estratos,d1_T,d1_p,d1_veredicto,d2_n_pares,d2_n_cerca,d2_D,d2_p,d2_veredicto,d3_n_rachas,d3_L_ev_media,d3_L_ev_nulo,d3_L_nm_mediana,d3_p,d3_veredicto
+E215C,10uM,True,1252,1240,-0.4959,0.001,RAIL (sitio con identidad),2556,1709,-0.5784,1.0,sin decaimiento espacial detectable,828,1.598,1.693,13.4,1.0,sin exceso
+E215C,100uM,False,88,88,-0.5127,0.0519,sin identidad de sitio detectable,818,532,-0.5722,1.0,sin decaimiento espacial detectable,226,1.845,1.681,16.8,0.002,rachas en EXCESO
+E215C,1mM,False,228,228,-0.4323,0.023,RAIL (sitio con identidad),1212,831,-0.612,1.0,sin decaimiento espacial detectable,382,1.636,1.685,14.1,0.9021,sin exceso
+K28C,10uM,True,926,926,-0.2535,0.0509,sin identidad de sitio detectable,2035,1720,-0.03,0.6903,sin decaimiento espacial detectable,587,1.761,1.759,11.5,0.4855,sin exceso
+K28C,100uM,False,32,32,-0.4737,0.1349,sin identidad de sitio detectable,673,477,-0.6152,1.0,sin decaimiento espacial detectable,211,1.649,1.679,15.0,0.7263,sin exceso
+K28C,1mM,False,180,180,-0.2367,0.2857,sin identidad de sitio detectable,1374,952,-0.609,1.0,sin decaimiento espacial detectable,403,1.732,1.77,13.3,0.8282,sin exceso
+T324C,10uM,False,2991,2990,-0.2315,0.007,RAIL (sitio con identidad),5264,4201,-0.236,1.0,sin decaimiento espacial detectable,1589,1.694,1.746,12.4,0.996,sin exceso
+T324C,1mM,True,1376,1376,-0.3567,0.001,RAIL (sitio con identidad),4658,3377,-0.5113,1.0,sin decaimiento espacial detectable,1492,1.596,1.732,12.4,1.0,sin exceso

@@ -1,0 +1,53 @@
+[C] E215C 10uM: 203 trazas KV, 2556 pares
+/Volumes/ILVAR_STORAGE/FundacionKhora/khora/.venv/lib/python3.14/site-packages/numpy/lib/_function_base_impl.py:3023: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/Volumes/ILVAR_STORAGE/FundacionKhora/khora/.venv/lib/python3.14/site-packages/numpy/lib/_function_base_impl.py:3024: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+    C-2: IM_real 0.0191 vs surr p50 -0.0001 p95 0.0020  p_artefacto 0.0050
+[C] E215C 100uM: 63 trazas KV, 818 pares
+    C-2: IM_real 0.0371 vs surr p50 -0.0002 p95 0.0068  p_artefacto 0.0050
+[C] E215C 1mM: 96 trazas KV, 1212 pares
+    C-2: IM_real 0.0097 vs surr p50 -0.0003 p95 0.0053  p_artefacto 0.0050
+[C] K28C 10uM: 113 trazas KV, 2035 pares
+    C-2: IM_real 0.0059 vs surr p50 0.0001 p95 0.0034  p_artefacto 0.0050
+[C] K28C 100uM: 55 trazas KV, 673 pares
+    C-2: IM_real 0.0019 vs surr p50 0.0003 p95 0.0092  p_artefacto 0.4030
+[C] K28C 1mM: 71 trazas KV, 1374 pares
+    C-2: IM_real 0.0037 vs surr p50 -0.0006 p95 0.0040  p_artefacto 0.0647
+[C] T324C 10uM: 316 trazas KV, 5264 pares
+    C-2: IM_real 0.0015 vs surr p50 0.0001 p95 0.0013  p_artefacto 0.0348
+[C] T324C 1mM: 299 trazas KV, 4658 pares
+    C-2: IM_real 0.0137 vs surr p50 -0.0000 p95 0.0013  p_artefacto 0.0050
+
+=== C-1 (dwell→dwell, PT k=4, segmentador KV) ===
+constructo  cond  n_pares   im_obs  umbral_p95   p_perm   p_holm  confirma
+     E215C  10uM     2556 0.019127    0.004003 0.000999 0.002997      True
+     E215C 100uM      818 0.037059    0.012765 0.000999 0.002997      True
+     E215C   1mM     1212 0.009665    0.008080 0.030969 0.030969      True
+      K28C  10uM     2035 0.005923    0.003236 0.004995 0.014985      True
+      K28C 100uM      673 0.001918    0.009759 0.343656 0.501499     False
+      K28C   1mM     1374 0.003720    0.007463 0.250749 0.501499     False
+     T324C  10uM     5264 0.001481    0.006736 0.986014 0.986014     False
+     T324C   1mM     4658 0.013688    0.003084 0.000999 0.001998      True
+
+=== C-1 bajo nulo de paridad ===
+constructo  cond   p_perm   p_holm  confirma
+     E215C  10uM 0.000999 0.002997      True
+     E215C 100uM 0.000999 0.002997      True
+     E215C   1mM 0.051948 0.051948     False
+      K28C  10uM 0.005994 0.017982      True
+      K28C 100uM 0.435564 0.771229     False
+      K28C   1mM 0.385614 0.771229     False
+     T324C  10uM 0.946054 0.946054     False
+     T324C   1mM 0.000999 0.001998      True
+
+=== C-2 (nulo de artefacto calibrado) ===
+constructo  cond  im_real  im_surr_p50  im_surr_p95  p_artefacto  corr_lag1_real  corr_lag1_surr_p50  n_pares_real  n_pares_surr_p50  artefacto_descartado
+     E215C  10uM 0.019127    -0.000092     0.002049     0.004975       -0.131532           -0.106600          2556            2848.5                  True
+     E215C 100uM 0.037059    -0.000204     0.006841     0.004975        0.025377           -0.098486           818             806.5                  True
+     E215C   1mM 0.009665    -0.000330     0.005317     0.004975       -0.121479           -0.101675          1212            1197.0                  True
+      K28C  10uM 0.005923     0.000149     0.003353     0.004975       -0.101911           -0.078741          2035            2058.0                  True
+      K28C 100uM 0.001918     0.000346     0.009234     0.402985       -0.189670           -0.091115           673             701.0                 False
+      K28C   1mM 0.003720    -0.000606     0.004032     0.064677       -0.083218           -0.075037          1374            1247.0                 False
+     T324C  10uM 0.001481     0.000062     0.001263     0.034826       -0.118902           -0.088800          5264            5384.5                  True
+     T324C   1mM 0.013688    -0.000012     0.001289     0.004975       -0.163299           -0.093189          4658            4616.5                  True
