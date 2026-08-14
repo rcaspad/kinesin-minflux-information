@@ -1,0 +1,11 @@
+dataset,constructo,cond,id,fp,banda_lo,banda_hi,fpr_ok,pares_p50
+wolff,K28C,10uM,3,34,16,35,True,1601
+wolff,K28C,100uM,4,38,16,35,False,538
+wolff,K28C,1mM,5,31,16,35,True,1019.5
+wolff,T324C,10uM,6,49,16,35,False,3158
+wolff,T324C,1mM,8,75,16,35,False,2988
+wirth,K28C,50uM,20,102,16,35,False,1671.5
+wirth,K28C,500uM,21,217,16,35,False,2070
+wirth,K28C,5mM,22,97,16,35,False,1988
+wirth,T324C,50uM,23,87,16,35,False,1670
+wirth,T324C,5mM,24,99,16,35,False,1697

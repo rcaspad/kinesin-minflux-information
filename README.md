@@ -52,6 +52,38 @@ everything needed to navigate.
 | `c/` | Independent Kalafut-Visscher segmentation + **calibrated artifact null** | anticorrelation signature = segmentation-made; residual in 3/7 cells |
 | `d/` | Attribution tests (revisits, spatial decay, run lengths, stationary control) | UNRESOLVED by frozen rule |
 | `e/` | Tiebreakers: center-of-mass control + cross-motor same-microtubule test | **RESOLVED: labeled-head dynamics** |
+| `a2_bis/` | Addendum (2026-08-14): synthetic go/no-go gate for a preregistered extension to a second dataset | **NO-GO — honest death** + FPR-vs-noise curve |
+
+## Addendum: segmentation-induced spurious memory, quantified (a2_bis/)
+
+A preregistered extension of this analysis to the in-situ MINFLUX dataset
+of Wirth et al. (*Comm. Biol.* 7, 661, 2024; Zenodo 10718784 — native
+axonal microtubules, same K28C/T324C constructs, σ ≈ 4.5 nm) was frozen
+(`prereg/prereg_wirth_v1.md`, SHA `1d6ab5d5…`) with a hard synthetic
+go/no-go gate as its first door. **The gate returned NO-GO and the front
+was closed without opening a single real trajectory** — the frozen death
+clause applied as written.
+
+The by-product is a quantification we consider useful beyond this
+project: feeding pure renewal (memoryless) synthetic trajectories with
+real trace-length, noise and time-grid marginals through the full
+localization + change-point segmentation chain, the within-trace
+order-permutation test for sequential structure fires far above its
+nominal α = 5 %: **7–15 % false-positive rate at σ ≈ 1–2 nm (Wolff-like
+noise) and 17–43 % at σ ≈ 4.5 nm (Wirth-like noise)** (exact binomial
+band [16, 35]/500). Segmentation breaks the exchangeability of detected
+events before the null ever runs. The 4-nm step class is additionally
+unresolvable by this chain at either noise level.
+
+This is a **quantification, not a novelty claim**: the qualitative
+neighborhood (step-detection overfitting, missed-event corrections,
+correlated-noise miscounting) is mapped with references in
+`a2_bis/COMPROBACION_NOVEDAD_FPR_20260814.md`, and a specific
+prior-art check is recorded there. Practical consequence for anyone
+analyzing sequential structure in segmented stepper trajectories:
+permutation nulls on detected events are not calibrated at the chain
+level — use renewal surrogates with real noise passed through your full
+chain (as in `c/`) as the null instead.
 
 ## Reproduction
 

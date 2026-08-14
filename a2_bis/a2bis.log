@@ -1,0 +1,26 @@
+[A2"] banda binomial exacta 95%: [16, 35] FP de 500 a alfa=0.05
+[A2"] wolff K28C 10uM: 113 rejillas, pools 1463
+[A2"] wolff K28C 100uM: 56 rejillas, pools 478
+[A2"] wolff K28C 1mM: 71 rejillas, pools 980
+[A2"] wolff T324C 10uM: 320 rejillas, pools 2830
+[A2"] wolff T324C 1mM: 303 rejillas, pools 2617
+[A2"] wirth K28C 50uM: 125 rejillas, pools 1722
+[A2"] wirth K28C 500uM: 118 rejillas, pools 1915
+[A2"] wirth K28C 5mM: 105 rejillas, pools 1882
+[A2"] wirth T324C 50uM: 114 rejillas, pools 1671
+[A2"] wirth T324C 5mM: 102 rejillas, pools 1630
+
+[A2"] wolff K28C  10uM   FP  34 OK   exact 0.872 clases 0.502/0.890/0.868 NO
+[A2"] wolff K28C  100uM  FP  38 FUERA  exact 0.831 clases 0.405/0.847/0.839 NO
+[A2"] wolff K28C  1mM    FP  31 OK   exact 0.858 clases 0.487/0.860/0.871 NO
+[A2"] wolff T324C 10uM   FP  49 FUERA  exact 0.806 clases 0.494/0.839/0.846 NO
+[A2"] wolff T324C 1mM    FP  75 FUERA  exact 0.810 clases 0.441/0.825/0.836 NO
+[A2"] wirth K28C  50uM   FP 102 FUERA  exact 0.785 clases 0.361/0.807/0.804 NO
+[A2"] wirth K28C  500uM  FP 217 FUERA  exact 0.772 clases 0.307/0.752/0.785 NO
+[A2"] wirth K28C  5mM    FP  97 FUERA  exact 0.777 clases 0.339/0.773/0.805 NO
+[A2"] wirth T324C 50uM   FP  87 FUERA  exact 0.743 clases 0.334/0.755/0.789 NO
+[A2"] wirth T324C 5mM    FP  99 FUERA  exact 0.768 clases 0.359/0.766/0.798 NO
+
+[A2"] A2"-1 (FPR, 10 celdas): FALLA
+[A2"] A2"-2 (resolubilidad, 5 celdas Wirth): FALLA
+[A2"] GATE: NO-GO
