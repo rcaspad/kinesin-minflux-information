@@ -69,8 +69,12 @@ project: feeding pure renewal (memoryless) synthetic trajectories with
 real trace-length, noise and time-grid marginals through the full
 localization + change-point segmentation chain, the within-trace
 order-permutation test for sequential structure fires far above its
-nominal α = 5 %: **7–15 % false-positive rate at σ ≈ 1–2 nm (Wolff-like
-noise) and 17–43 % at σ ≈ 4.5 nm (Wirth-like noise)** (exact binomial
+nominal α = 5 %: **7–15 % false-positive rate at measured effective σ ≈ 3.0–3.2 nm
+(Wolff) and 17–43 % at σ ≈ 4.2–4.6 nm (Wirth)** (σ here is the
+measured per-trace noise carried by the surrogates — std of successive
+differences /√2 — which exceeds nominal MINFLUX localization precision
+because it includes intra-dwell probe dynamics; wording corrected
+2026-08-14) (exact binomial
 band [16, 35]/500). Segmentation breaks the exchangeability of detected
 events before the null ever runs. The 4-nm step class is additionally
 unresolvable by this chain at either noise level.
